@@ -20,7 +20,7 @@ public class CustomerController {
     CustomerService customerService;
 
     @GetMapping("customer/{id}")
-    public Customer getCustomer(@PathVariable String id) {
+    public Customer1 getCustomer(@PathVariable String id) {
 
         LOG.debug("This is debug statement in controller");
         LOG.warn("This is warning statement in controller");
