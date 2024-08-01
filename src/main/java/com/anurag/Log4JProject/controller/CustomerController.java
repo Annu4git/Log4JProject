@@ -26,6 +26,7 @@ public class CustomerController {
         LOG.error("This is error statement in controller");
         LOG.info("This is info statement in controller");
         LOG.fatal("This is fatal statement in controller");
+        LOG.debug("This is last debug statement in controller *******************************************");
 
 
         return customerService.getCustomerById(id);
